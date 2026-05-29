@@ -2,20 +2,19 @@
 
 CodeSight is a desktop application for visualizing codebase structure and file dependencies.
 
-It scans project files and generates an interactive graph that helps developers better understand how modules and files are connected.
+It scans your project and generates an interactive graph showing how files connect to each other, making it easier to explore unfamiliar codebases, understand architecture, and navigate large projects.
 
-Built with Rust, Tauri, and React Flow.
+Built with Rust, Tauri, and React Flow for fast native performance and a clean modern UI.
 
 ---
 
 ## Features
 
 - Interactive dependency graph
-- Fast native desktop performance
-- Project-wide file scanning
+- Fast project scanning
+- Modern desktop interface
 - Multi-language support
-- Modern dark interface
-- Search and graph exploration
+- Graph exploration and navigation
 - Detection of isolated and unresolved files
 
 ---
@@ -32,7 +31,7 @@ Built with Rust, Tauri, and React Flow.
 
 ## Installation
 
-Download the latest release from the Releases page and run:
+Download the latest release and run:
 
 ```txt
-CodeSight_x64-setup.exe
+CodeSight_1.0.0_x64-setup.exe
