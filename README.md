@@ -1,25 +1,22 @@
 # CodeSight
 
-CodeSight is a desktop application for visualizing codebase structure and file dependencies.
+**Visualize your codebase structure and dependencies at a glance.**
 
-It scans your project and generates an interactive graph showing how files connect to each other, making it easier to explore unfamiliar codebases, understand architecture, and navigate large projects.
-
-Built with Rust, Tauri, and React Flow for fast native performance and a clean modern UI.
+A fast and beautiful desktop application that scans your project and generates an interactive dependency graph.
 
 ---
 
-## Features
+## ✨ Features
 
 - Interactive dependency graph
-- Fast project scanning
-- Modern desktop interface
+- Extremely fast scanning (built with Rust)
+- Modern, clean desktop UI
 - Multi-language support
-- Graph exploration and navigation
-- Detection of isolated and unresolved files
+- Detection of isolated files and unresolved imports
+- Easy navigation (zoom, pan, focus mode)
+- Native performance with Tauri
 
----
-
-## Supported Languages
+## 🛠️ Supported Languages
 
 - JavaScript / TypeScript
 - Python
@@ -27,11 +24,28 @@ Built with Rust, Tauri, and React Flow for fast native performance and a clean m
 - Vue
 - Go (experimental)
 
+## 🚀 Quick Start
+
+1. Download the latest installer from the [Releases page](https://github.com/vaidamatias/codesight/releases)
+2. Run `CodeSight_Setup.exe`
+3. Click **"Open project"** and select your project folder
+4. Explore the graph!
+
+## 🎯 Why Use CodeSight?
+
+- Quickly understand new or large codebases
+- Spot isolated (dead) code and broken imports
+- Visualize project architecture
+- Great for onboarding and code reviews
+
+
+## 📄 License
+
+[MIT License](LICENSE)
+
 ---
 
-## Installation
+**Made with ❤️ using Rust + Tauri + React Flow**
 
-Download the latest release and run:
-
-```txt
-CodeSight_1.0.0_x64-setup.exe
+If you like this project, please give it a ⭐ star!  
+Feedback and suggestions are very welcome!
